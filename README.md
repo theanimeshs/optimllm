@@ -21,19 +21,20 @@ A TypeScript library for optimizing LLM prompts to reduce tokens, save costs, an
 ## Installation
 
 ```bash
-npm install @optimllm/prompt-optimizer
+npm install optimllm
 # or
-yarn add @optimllm/prompt-optimizer
+yarn add optimllm
 ```
 
 ## Quick Start
 
 ```bash
 // For CommonJS
-const { PromptOptimizer } = require('@optimllm/prompt-optimizer');
+const { PromptOptimizer } = require('optimllm');
 
 // For ES Modules or TypeScript
-import { PromptOptimizer } from '@optimllm/prompt-optimizer';
+import { PromptOptimizer } from "optimllm";
+
 
 const optimizer = new PromptOptimizer();
 const result = optimizer.optimize("Write your prompt here");
